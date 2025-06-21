@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+:root {
+  --secondary-color: #333;
+  --text-color: hsl(0, 0%, 94%);
+  --accent-color: #fab70d;
+}
+
+body {
+  margin: 0;
+  background-color: var(--secondary-color);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 1px;
+}
+
+.navbar .logo {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 10px;
+  transition: background 0.3s;
+}
+
+.nav-links li a:hover {
+  border-radius: 4px;
+  background-color: #fab70d;
+}
+
+.image-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section1 {
+  background-image: url(./bgimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 2.5%;
+  max-width: 400px;
+  color: var(--text-color);
+}
+h1 {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 30px;
+}
+p {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.section2 {
+  background-image: url("/secondbg.png");
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 10px;
+  height: 100vh;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.price-tag{
+  color: white;
+  
+}
+
+button {
+  background-color: #fab70d;
+  padding: 5px 50px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+.box {
+  height: 300px;
+  width: 300px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image1 {
+  display: flex;
+  background-image: url("./browndonut.jpg");
+  border-radius: 30px;
+  background-size: cover;
+  height: 900px;
+  width: 300px;
+}
+.content {
+  display: flex;
+  flex: 1;
+  color: aliceblue;
+}
+.image2 {
+  display: flex;
+  background-image: url("./giordano-rossoni-43SeT8ihBU8-unsplash.jpg");
+  border-radius: 30px;
+
+  background-size: cover;
+  height: 900px;
+  width: 300px;
+}
+.image3 {
+  display: flex;
+  background-image: url("/Puff\ Pastry\ with\ Raspberry.jpg");
+  border-radius: 30px;
+
+  background-size: cover;
+  height: 900px;
+  width: 300px;
+}
+.image4 {
+  display: flex;
+  background-image: url("./frenchbread.jpg");
+  border-radius: 30px;
+
+  background-size: cover;
+  height: 900px;
+  width: 300px;
+}
+.image5 {
+  display: flex;
+  background-image: url("./roundbreadimg.jpg");
+  border-radius: 30px;
+
+  background-size: cover;
+  height: 900px;
+  width: 300px;
+}
+.image6 {
+  display: flex;
+  background-image: url("./top.png");
+  border-radius: 30px;
+
+  background-size: cover;
+  height: 900px;
+  width: 300px;
+}
+.image7 {
+  display: flex;
+  background-image: url("./browndonut.jpg");
+  border-radius: 30px;
+
+  background-size: cover;
+  height: 900px;
+  width: 300px;
+}
+.image8 {
+  display: flex;
+  background-image: url("/roundbreadimg.jpg");
+  border-radius: 30px;
+
+  background-size: cover;
+  height: 900px;
+  width: 300px;
+}

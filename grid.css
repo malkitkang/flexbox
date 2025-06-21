@@ -1,0 +1,12 @@
+.container{
+    border: 2px solid rebeccapurple;
+    display: grid;
+    grid-template-columns: 120px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+.items{
+    border: 2px solid salmon;
+    height: 55px;
+    width: 55px;
+
+}
